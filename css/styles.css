@@ -3,5 +3,22 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
-    color: #333;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.light-theme {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.dark-theme {
+    background-color: #333333;
+    color: #ffffff;
 }
